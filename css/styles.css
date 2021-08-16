@@ -11695,6 +11695,37 @@ article{
   display: none;
 }
 
+
+
+
+
+/* 결과 화면 */
+.result-message {
+  color: #0489B1;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.result-dino {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ebebeb;
+}
+
+.result-explain {
+  font-size: 17px;
+  font-weight: normal;
+  color: #0489B1;
+}
+
+.share-message {
+  margin: 0 auto;
+  color:#ffffff;
+  font-size: 24px;
+  font-weight: 100;
+}
+
 .result {
   display: none;
 }
@@ -11712,4 +11743,16 @@ article{
 .kakao_ad {
   width: 320px;
   margin: 0 auto;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.banner-img {
+  width: 300px;
+  height: 405.17px;
 }
