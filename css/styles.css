@@ -11693,18 +11693,72 @@ article{
 
 .question {
   display: none;
+  color: #ebebeb
 }
 
 
+/* 문제 화면 */
+.btn-answer, .btn-answer:visited, .btn-answer:hover, .btn-answer:active, .btn-answer:focus {
+  background-color: #1f1f1f;
+  border:#1f1f1f;
+  width: 288px;
+  margin: 0 auto;
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: 200;
+}
+.btn-answer:hover {
+  background-color: #0489B1 !important;
+  border:#1f1f1f !important;
+  width: 288px;
+  margin: 0 auto;
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: 200;
+}
+.progress-bar {
+  background-color: #0489B1;
+}
+.progress {
+  background-color: #525764;
+}
 
+.slash-element {
+  width: 24px;
+  margin: 0 auto;
+}
+
+.rectangle {
+  width: 288px;
+  height: 8px;
+  background-color: #383a43;
+  margin: 0 auto;
+}
+.mid-rectangle {
+  width: 288px;
+  height: 1px;
+  background-color: #383a43;
+  margin: 0 auto;
+}
 
 
 /* 결과 화면 */
+.btn-outline-reset
+{
+  background-color: #1f1f1f !important;
+  border:#0489B1 !important;
+  color: #0489B1;
+  width: 220px;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0 auto;
+}
+
 .result-message {
   color: #0489B1;
   margin: 0 auto;
-  font-size: 24px;
-  font-weight: 300;
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .result-dino {

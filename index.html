@@ -27,8 +27,8 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">공룡 테스트</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">화석 발굴중..</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">아직 탐사중..</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#projects">화석 발굴중..</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#signup">아직 탐사중..</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -59,10 +59,15 @@
                             <div class="progress mt-5">
                                 <div class="progress-bar" role="progressbar" style="width: calc(100/12*1%)"></div>
                             </div>
+                            <br><br>
                             <h2 id="title" class="text-center mt-5">문제</h2>
                             <input id="type" type="hidden" value="EI">
-                            <button id="A" type="button" class="btn btn-primary mt-5">문제 A</button>
-                            <button id="B" type="button" class="btn btn-primary mt-5">문제 B</button>
+                            <br><br>
+                            <div class="rectangle mt-5"></div>
+                            <button id="A" type="button" class="btn-answer btn btn-primary pt-5 pb-5">대답A</button>
+                            <div class="mid-rectangle"></div>
+                            <button id="B" type="button" class="btn-answer btn btn-primary pt-5 pb-5">대답B</button>
+                            <div class="rectangle"></div>
                         </article>
                     
                         <article class="result">
@@ -77,9 +82,12 @@
                             <h2 id="dino" class="result-dino text-center mt-4 mb-4">공룡이름</h2>
                             <img class="updown-slash" src="img/down-slash.png" alt="down-slash">
                             <h3 id="explain" class="result-explain text-center mt-4">설명</h3>
+                            <div class="rectangle mt-4 mb-4"></div><br><br>
+                            <button type="button" class="btn-outline-reset" onClick="window.location.reload()">다시하기</button>
+                            <br><br>
                             <div class="rectangle mt-4 mb-4"></div>
+                            <br>
                             <span class="share-message mb-4">나의 공룡 테스트 결과 <strong>공유하기</strong></span>
-
                             <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="share addthis_inline_share_toolbox"></div>
                         </article>
                         <br><br>
@@ -100,22 +108,22 @@
                         <script>
                             var num = 1;
                             var q = {
-                                1: {"title": "문제 1번", "type": "EI", "A": "E", "B": "I"},
-                                2: {"title": "문제 2번", "type": "EI", "A": "E", "B": "I"},
-                                3: {"title": "문제 3번", "type": "EI", "A": "E", "B": "I"},
-                                4: {"title": "문제 4번", "type": "SN", "A": "S", "B": "N"},
-                                5: {"title": "문제 5번", "type": "SN", "A": "S", "B": "N"},
-                                6: {"title": "문제 6번", "type": "SN", "A": "S", "B": "N"},
-                                7: {"title": "문제 7번", "type": "TF", "A": "T", "B": "F"},
-                                8: {"title": "문제 8번", "type": "TF", "A": "T", "B": "F"},
-                                9: {"title": "문제 9번", "type": "TF", "A": "T", "B": "F"},
-                                10: {"title": "문제 10번", "type": "JP", "A": "J", "B": "P"},
-                                11: {"title": "문제 11번", "type": "JP", "A": "J", "B": "P"},
-                                12: {"title": "문제 12번", "type": "JP", "A": "J", "B": "P"}
+                                1: {"title": "친구들이 새로 찾은 숲에 가서 함께 풀을 먹자고 한다. 두렵지만 가볼까?", "type": "EI", "A": "무엇이 있을까? 당장 가자!!", "B": "아니야.. 혼자 조용히 아껴둔 열매를 먹을 거야."},
+                                2: {"title": "이곳은 무시무시한 육식 공룡의 영역이다! 가족들에게 어떻게 돌아가야 할까?", "type": "SN", "A": "오는 길에 흔적을 남겼으니 흔적들을 찾아 돌아가자!", "B": " 이곳은 위험해..! 일단 이곳을 벗어나면서 주위를 둘러보자."},
+                                3: {"title": "\"그쪽으로 가지 말자 했잖아!\" 친구를 화나게 해버렸다.. 어떻게 할까?", "type": "TF", "A": "미안해.. 하지만 그 열매 정말 맛있었잖아..? 친구를 설득한다.", "B": "우리 일단 살았잖아!! 미안.. 화났어? 친구의 화를 풀어준다."},
+                                4: {"title": "우리 종일 풀 먹기 계획은 달성하기 힘들 것 같은데.?", "type": "JP", "A": "그럼 일단 뭐 하고 놀지 다 같이 의견을 내봐!", "B": "그럴 거 같더라. 우선 먹으면서 생각해보자."},
+                                5: {"title": "너는 앞으로 어떤 공룡이 될 거니?", "type": "EI", "A": "나는 무리를 이끌고 싶어!", "B": "나는 가족들과 오순도순 살고 싶어."},
+                                6: {"title": "다들 이틀이나 굶었다! 계획했던 사냥 오늘까지 해내야 하는데 할 수 있을까?", "type": "SN", "A": "하루 더 걸리더라도 큰 공룡을 정확하게 사냥한다.", "B": "배고파! 보이는 데로 사냥하자!"},
+                                7: {"title": "연말이고, 연초라 내 의지가 끌어오른다! 뭐라도 해야할 것 같은데, 어떡하지?", "type": "TF", "A": "투두리스트를 적어 하나씩 처리할 수 있도록 계획한다.", "B": "우선 해봐야 도전하는 느낌도 난다! 당장 뭐라도 시작한다."},
+                                8: {"title": "2020년이 마무리됐다...만,내가 원하는 바를 이루지는 못했다. 나는 어떻게 생각하는 타입?", "type": "JP", "A": " 올해 정말 수고했지만, 내가 원하는 결과는 얻지 못했어 내년에는 더 타이트하고 체계적으로 목표와 일정을 짜서 해결해내고 말거야!", "B": "비록 내가 원하는 바는 이루지 못했지만, 오히려 좋아, 목표에 대한 변수를 파악하고 새로운 방향을 알아냈으니까!"},
+                                9: {"title": "연말, 팀에게 감사인사를 하고 싶다. 하지만 예산은 한정되어있고.. 어떻게 선물을 준비할까?", "type": "EI", "A": "비슷한 가격대의 선물을 골라 모두에게 선물한다.", "B": "가장 고마웠던 팀원에게 조용히 편지와 선물을 준비한다."},
+                                10: {"title": "연초에는 정말 새로운 사람이 되고 싶다. 그럼, 뭐부터 해야하지? 연초계획을 세울 때 내 스타일은?", "type": "SN", "A": "현실적으로 이룰 수 있는 계획들을 세워 진행한다.", "B": "포부는 크면 클수록 좋아. 계획은 최대한 크게 세운다."},
+                                11: {"title": "친구가 이직에 대한 고민을 하고 있다! 다른 사람의 계획에 있어 당신의 반응은?", "type": "TF", "A": "그럼 이렇게 해보는 건 어때? 계획들에 대한 분석적으로 살펴보고 다양한 의견을 준다", "B": "아 진짜? 그런 고민 왜 혼자 하고 있었어! 그동안 안힘들었어? 라고 위로하며 공감한다."},
+                                12: {"title": "2021년 내 목표는 자기개발, 나는 어떤식으로 자기개발하는 스타일일까?", "type": "JP", "A": "우선 기초 이론부터 차근차근 배워서 성장해나가고 싶어! 커리큘럼을 보고 꼼꼼하게 공부 계획을 세워서 수강한다.", "B": "시도를 해봐야 내가 어떤 유형에 맞는 지 확인 가능하다고 생각하기 때문에 강의를 수강해본다"}
                             }
                             var result = {
                                 "ISTJ": {"dino": "스테고사우루스", "explain": "설명", "img": "lion.jpg"},
-                                "ISFJ": {"dino": "디모르포돈", "explain": "설명", "img": "lion.jpg"},
+                                "ISFJ": {"dino": "딜로포사우루스", "explain": "설명", "img": "lion.jpg"},
                                 "INFJ": {"dino": "토로사우루스", "explain": "설명", "img": "lion.jpg"},
                                 "INTJ": {"dino": "갈리미무스", "explain": "설명", "img": "lion.jpg"},
                                 "ISTP": {"dino": "파키케팔로사우루스", "explain": "설명", "img": "lion.jpg"},
