@@ -11591,11 +11591,11 @@ body {
   }
 }
 
-.about-section {
+.dinotest-section {
   padding-top: 1rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
-.about-section p {
+.dinotest-section p {
   margin-bottom: 5rem;
 }
 
@@ -11708,7 +11708,7 @@ article{
   font-weight: 200;
 }
 .btn-answer:hover {
-  background-color: #0489B1 !important;
+  background-color: #088A29 !important; /* #0489B1 */
   border:#1f1f1f !important;
   width: 288px;
   margin: 0 auto;
@@ -11717,7 +11717,7 @@ article{
   font-weight: 200;
 }
 .progress-bar {
-  background-color: #0489B1;
+  background-color: #088A29; /**/
 }
 .progress {
   background-color: #525764;
@@ -11746,8 +11746,8 @@ article{
 .btn-outline-reset
 {
   background-color: #1f1f1f !important;
-  border:#0489B1 !important;
-  color: #0489B1;
+  border:#088A29 !important; /**/
+  color: #088A29;             /**/
   width: 220px;
   font-size: 24px;
   font-weight: 300;
@@ -11755,7 +11755,7 @@ article{
 }
 
 .result-message {
-  color: #0489B1;
+  color: #088A29;       /**/
   margin: 0 auto;
   font-size: 30px;
   font-weight: 500;
@@ -11770,7 +11770,7 @@ article{
 .result-explain {
   font-size: 17px;
   font-weight: normal;
-  color: #0489B1;
+  color: #088A29;   /**/
 }
 
 .share-message {
