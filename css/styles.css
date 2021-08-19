@@ -11757,12 +11757,12 @@ article{
 .result-message {
   color: #088A29;       /**/
   margin: 0 auto;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 600;
 }
 
 .result-dino {
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 600;
   color: #ebebeb;
 }
