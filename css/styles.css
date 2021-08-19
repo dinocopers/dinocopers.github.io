@@ -11782,6 +11782,10 @@ article{
   color: #ebebeb;
 }
 
+.updown-slash {
+  margin: 0 auto;
+}
+
 .result-explain {
   font-size: 17px;
   font-weight: normal;

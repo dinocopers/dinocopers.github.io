@@ -78,9 +78,9 @@
   
                             <img class="updown-slash mt-3" stlye="margin: 0;"src="assets/img/dino-slash.png" alt="dino-slash">
                             <span class="result-message mt-4 mb-4">나는 이 공룡이었을 것이다!</span>
-                            <img id="img" class="rounded-circle mt-5" src="img/lion.png" alt="dino">
+                            <img id="img" class="rounded-circle mt-5" src="img/dino.png" alt="dino">
                             <h2 id="dino" class="result-dino text-center mt-4 mb-4">공룡이름</h2>
-                            <img class="updown-slash" src="img/down-slash.png" alt="down-slash">
+                            <img class="updown-slash" style="width: 250px; height: 35px;" src="assets/img/down-slash.png" alt="down-slash"><br>
                             <h3 id="explain" class="result-explain text-center mt-4">설명</h3>
                             <div class="rectangle mt-4 mb-4"></div><br><br>
                             <button type="button" class="btn-outline-reset" onClick="window.location.reload()">다시하기</button>
@@ -122,22 +122,22 @@
                                 12: {"title": "무리를 지키려면 더 강해져야 해, 나는 어떻게 하면 강해질까?", "type": "JP", "A": "계획을 세워서 차근차근 단련하자!", "B": "아니야, 지금 당장 나의 수준을 확인해보는 거야."}
                             }
                             var result = {
-                                "ISTJ": {"dino": "스테고사우루스", "explain": "설명", "img": "assets/img/스테고.jpg"},
-                                "ISFJ": {"dino": "딜로포사우루스", "explain": "설명", "img": "assets/img/딜로포.jpg"},
-                                "INFJ": {"dino": "토로사우루스", "explain": "설명", "img": "lion.jpg"},
-                                "INTJ": {"dino": "갈리미무스", "explain": "설명", "img": "lion.jpg"},
-                                "ISTP": {"dino": "파키케팔로사우루스", "explain": "설명", "img": "lion.jpg"},
-                                "ISFP": {"dino": "디플로도쿠스", "explain": "설명", "img": "lion.jpg"},
-                                "INFP": {"dino": "트리케라톱스", "explain": "설명", "img": "lion.jpg"},
-                                "INTP": {"dino": "벨로시랩터", "explain": "설명", "img": "lion.jpg"},
-                                "ESTP": {"dino": "스피노사우루스", "explain": "설명", "img": "lion.jpg"},
-                                "ESFP": {"dino": "코일로피시스", "explain": "설명", "img": "lion.jpg"},
-                                "ENFP": {"dino": "티라노사우루스", "explain": "설명", "img": "lion.jpg"},
-                                "ENTP": {"dino": "프테라노돈", "explain": "설명", "img": "lion.jpg"},
-                                "ESTJ": {"dino": "브라키오사우루스", "explain": "설명", "img": "lion.jpg"},
-                                "ESFJ": {"dino": "안킬로사우루스", "explain": "설명", "img": "lion.jpg"},
-                                "ENFJ": {"dino": "파라사우룰로푸스", "explain": "설명", "img": "lion.jpg"},
-                                "ENTJ": {"dino": "케라토사우루스", "explain": "설명", "img": "lion.jpg"}
+                                "ISTJ": {"dino": "스테고사우루스", "explain": "계획 세우기를 좋아하는 공룡이네요!<br>무언가를 할 때 먼저 나서서 계획을 세워요.<br>하지만 도전적인 거에는 서툴 수 있어요.<br><br>👍 잘 어울리는 공룡<br>✔ 코일로피시스", "img": "assets/img/스테고.jpg"},
+                                "ISFJ": {"dino": "딜로포사우루스", "explain": "상대방의 의견을 존중해주는 배려왕 공룡이네요!<br>좀 더 본인의 의견을 내세우면 좋을 것 같아요.<br>계획대로 잘 풀리지 않을 때 스트레스를 받는군요.<br><br>👍 잘 어울리는 공룡<br>✔ 스피노사우루스", "img": "assets/img/딜로포.jpg"},
+                                "INFJ": {"dino": "토로사우루스", "explain": "설명", "img": "assets/img/토로.jpg"},
+                                "INTJ": {"dino": "갈리미무스", "explain": "설명", "img": "assets/img/갈리.jpg"},
+                                "ISTP": {"dino": "파키케팔로사우루스", "explain": "설명", "img": "assets/img/파키케.jpg"},
+                                "ISFP": {"dino": "디플로도쿠스", "explain": "설명", "img": "assets/img/디플로.jpg"},
+                                "INFP": {"dino": "트리케라톱스", "explain": "설명", "img": "assets/img/트리케.jpg"},
+                                "INTP": {"dino": "벨로시랩터", "explain": "설명", "img": "assets/img/벨로시.jpg"},
+                                "ESTP": {"dino": "스피노사우루스", "explain": "설명", "img": "assets/img/스피노.jpg"},
+                                "ESFP": {"dino": "코일로피시스", "explain": "설명", "img": "assets/img/코일로.jpg"},
+                                "ENFP": {"dino": "티라노사우루스", "explain": "설명", "img": "assets/img/티라노.jpg"},
+                                "ENTP": {"dino": "프테라노돈", "explain": "설명", "img": "assets/img/프테라.jpg"},
+                                "ESTJ": {"dino": "브라키오사우루스", "explain": "설명", "img": "assets/img/브라키.jpg"},
+                                "ESFJ": {"dino": "안킬로사우루스", "explain": "설명", "img": "assets/img/안킬로.jpg"},
+                                "ENFJ": {"dino": "파라사우룰로푸스", "explain": "설명", "img": "assets/img/파라사.jpg"},
+                                "ENTJ": {"dino": "케라토사우루스", "explain": "설명", "img": "assets/img/케라토.jpg"}
                             }
                             function start() {
                                 $(".start").hide();
