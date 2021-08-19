@@ -11748,8 +11748,18 @@ article{
 
 
 /* 결과 화면 */
-.btn-outline-reset
+.btn-outline-reset, .btn-outline-reset:visited, .btn-outline-reset:hover, .btn-outline-reset:active, .btn-outline-reset:focus
 {
+  background-color: #1f1f1f;
+  border:#088A29; /**/
+  color: #088A29;             /**/
+  width: 220px;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0 auto;
+}
+
+.btn-outline-reset:hover{
   background-color: #1f1f1f !important;
   border:#088A29 !important; /**/
   color: #088A29;             /**/
