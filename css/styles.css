@@ -11592,7 +11592,7 @@ body {
 }
 
 .dinotest-section {
-  padding-top: 1rem;
+  padding-top: 5rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .dinotest-section p {
@@ -11757,12 +11757,12 @@ article{
 .result-message {
   color: #088A29;       /**/
   margin: 0 auto;
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 34px;
+  font-weight: 700;
 }
 
 .result-dino {
-  font-size: 28px;
+  font-size: 38px;
   font-weight: 600;
   color: #ebebeb;
 }
