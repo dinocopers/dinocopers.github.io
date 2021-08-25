@@ -11701,6 +11701,11 @@ article{
   height: 40px;
 }
 
+.eng{
+  height: 50;
+  width: 50;
+}
+
 
 /* 문제 화면 */
 .btn-answer, .btn-answer:visited, .btn-answer:hover, .btn-answer:active, .btn-answer:focus {
